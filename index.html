@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Memory Game!</h1>
+        <div><label for="txtnumberofcards">Number of Cards :</label>
+            <input type="number" id="txtnumberofcards" placeholder=" # of Cards (Max 150)">
+        </div>
+        <div id="gameBoard"></div>
+        <h3> Score : <span id="errors">0</span></h3>
+        <h4 class="hide" id="bestScore"></h4>
+        <div id="btn">
+            <button class="start" id="btnNew">New Game</button>
+            <button class="reset hide" id="btnRestart">Restart Game</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
